@@ -6,14 +6,14 @@ function play()
     
     let randomNumber1 = Math.floor(Math.random() * 5) + 1;
     let randomDiceImage1 = "dice" + randomNumber1 + ".png";
-    let randomImageSource1 = "../image/" + randomDiceImage1;
+    let randomImageSource1 = "image/" + randomDiceImage1;
     let image1 = document.querySelectorAll("img")[0];
     image1.setAttribute("src", randomImageSource1);
 
 
     let randomNumber2 = Math.floor(Math.random() * 5) + 1;
     let randomDiceImage2 = "dice" + randomNumber2 + ".png";
-    let randomImageSource2 = "../image/" + randomDiceImage2;
+    let randomImageSource2 = "image/" + randomDiceImage2;
     let image2 = document.querySelectorAll("img")[1];
     image2.setAttribute("src", randomImageSource2 );
 
@@ -68,13 +68,13 @@ function reset()
         
     
     let randomDiceImage1 = "DICE.png"
-    let randomImageSource1 = "../image/" + randomDiceImage1;
+    let randomImageSource1 = "image/" + randomDiceImage1;
     let image1 = document.querySelectorAll("img")[0];
     image1.setAttribute("src", randomImageSource1);
 
 
     let randomDiceImage2 = "DICE.png"
-    let randomImageSource2 = "../image/" + randomDiceImage2;
+    let randomImageSource2 = "image/" + randomDiceImage2;
     let image2 = document.querySelectorAll("img")[1];
     image2.setAttribute("src", randomImageSource2 );
 
