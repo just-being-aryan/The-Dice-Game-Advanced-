@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Dice Game</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Pacifico&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="favicon.png" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>The Dice Game</h1>
+    </div>
+    <div class="main">
+      <div class="dice-1">
+        <h2 class="player-1">Player 1</h2>
+        <img class="dice-image" src="image/DICE.png" alt="" />
+      </div>
+      <div class="details">
+        <h2 id="title-text">Start Playing</h2>
+        <h2 id="scores">0 : 0</h2>
+      </div>
+
+      <div class="dice-2">
+        <h2 class="player-2">Player 2</h2>
+        <img class="dice-image" src="image/DICE.png" alt="" />
+      </div>
+    </div>
+    <div class="buttons">
+      <button onclick="play()" class="btn btn-light play-button">Play</button>
+      <button onclick="reset()" class="btn btn-danger play-button">
+        Reset Score
+      </button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

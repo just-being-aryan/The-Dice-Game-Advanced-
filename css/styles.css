@@ -1,0 +1,93 @@
+body
+{
+    background : url('../image/dice-background.jpg' )  ;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin : 0;
+    padding : 0;
+    color : white !important; 
+
+
+}
+
+
+.header
+{
+    display : flex;
+    justify-content : center;
+   
+    
+}
+
+.header h1
+{
+    font-size : 5rem;
+    padding : 70px;
+    text-decoration: darkred
+}
+
+
+.main
+{
+    display : flex;
+    justify-content: center;
+    
+}
+
+.dice-1,
+.dice-2
+{
+    text-align : center;
+}
+
+
+
+p{
+    font-size : 2rem;
+}
+
+.dice-image
+{
+    display : block;
+    margin : 0 auto;
+    width : 250px;
+    height : 250px;
+}
+
+#title-text{
+    font-size : 60px;
+    padding : 100px 100px;
+    display : flex;
+    align-items : center;
+    height : 8rem;
+    justify-content: center;
+}
+
+.play-button
+{
+    
+    width : 120px;
+    height : 80px;
+    cursor : pointer;
+    margin : 70px 40px;
+    
+}
+
+.buttons{
+    display : flex;
+    justify-content: center;
+    
+}
+
+#scores
+{
+    display : flex;
+    align-items : center;
+    justify-content: center;
+    padding-top : 10px;
+    font-size : 60px;
+    height : 12rem;
+    
+}
